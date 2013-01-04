@@ -19,3 +19,11 @@ code, check it out [here][2].
 
   [1]: https://twitter.com/LaNMaSteR53       "Tim Tomes(@LaNMaSter53)"
   [2]: https://bitbucket.org/LaNMaSteR53/peepingtom "here" 
+
+How you use it
+--------------
+* Put peeper.py and capture in the bin/ directory in your PhantomJS
+install
+* Feed it a Nessus report file: ./peeper.py testing_report.nessus
+* Visit the resulting directory 'testing_report', and look at the 
+index.html for thumbnails, and click for full size images
