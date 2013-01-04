@@ -57,7 +57,8 @@ for host in root.getiterator("ReportHost"):
 dir = re.sub(".nessus", "", file)
 if os.path.exists(dir):
   print "The directory exists, aborting"
-  exit
+  print
+  sys.exit()
 else:
   os.makedirs(dir)
 
