@@ -22,8 +22,9 @@ code, check it out [here][2].
 
 How you use it
 --------------
-* Put peeper.py and capture in the bin/ directory in your PhantomJS
-install
+* Put peeper.py and capture.js in the bin/ directory in your PhantomJS
+install, or make sure PhantomJS is in your path, your choice. (You'll
+need to edit the subprocess command if you use the latter option.)
 * Feed it a Nessus report file: ./peeper.py testing_report.nessus
 * Visit the resulting directory 'testing_report', and look at the 
 index.html for thumbnails, and click for full size images
