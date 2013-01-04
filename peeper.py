@@ -18,6 +18,11 @@ def guess_proto(output):
   else:
     return "http"
 
+if len(sys.argv) != 2:
+	print "Usage: ./peeper <Nessus filename>"
+	print
+	sys.exit()
+
 file = sys.argv[1]
 urls = []
 
