@@ -72,7 +72,10 @@ for url in urls:
   name = re.sub("http(s)?://", "", url)
   name = re.sub(":", "-", name)
   capture = "./phantomjs --ignore-ssl-errors=yes ./capture.js %s %s/%s.png" % (url, dir, name)
-  process = subprocess.Popen([capture], shell=True)
+  #process = subprocess.Popen([capture], shell=True)
+  run = os.system
+  #os.system is blocking, creating serial execution
+  process = run(capture)
   index.write("\t<td><a href=\"%s.png\"><img width=328 height=246 src=\"%s.png\"><br><center></a><a href=\"%s\">%s</a></center></td>\n" % (name, name, url, url))
   num_in_row += 1
   if (num_in_row % 3 == 0 ):
