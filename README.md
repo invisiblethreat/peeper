@@ -28,3 +28,9 @@ need to edit the subprocess command if you use the latter option.)
 * Feed it a Nessus report file: ./peeper.py testing_report.nessus
 * Visit the resulting directory 'testing_report', and look at the 
 index.html for thumbnails, and click for full size images
+
+BIG FAT WARNING
+---------------
+Yeah, in its current form, it does terrible DOSing when it encounters a
+WWW-Authenticate... You have been warned. (Planning fixes, check "issues")
+
