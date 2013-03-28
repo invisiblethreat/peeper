@@ -11,6 +11,12 @@ What you need
 * X11 Fonts to render text with PhantomJS
 * Python
 
+BIG FAT WARNING
+---------------
+Yeah, in its current form, it does terrible DOSing when it encounters a
+WWW-Authenticate... You have been warned. (Planning fixes, check "issues")
+2013-03-27
+
 Who thought of this first?
 --------------------------
 That would be [Tim Tomes(@LaNMaSter53)][1]), I've just taken the idea
@@ -33,4 +39,4 @@ BIG FAT WARNING
 ---------------
 Yeah, in its current form, it does terrible DOSing when it encounters a
 WWW-Authenticate... You have been warned. (Planning fixes, check "issues")
-
+2013-03-27
