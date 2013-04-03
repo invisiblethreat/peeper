@@ -7,8 +7,8 @@ and take screen shots of the parsed report.
 What you need
 -------------
 
-* PhantomJS
-* X11 Fonts to render text with PhantomJS
+* [PhantomJS 1.9+][3]
+* Fonts to render text with PhantomJS (an issue for servers/headless systems, not usually installed)
 * Python
 
 Who thought of this first?
@@ -19,6 +19,7 @@ code, check it out [here][2].
 
   [1]: https://twitter.com/LaNMaSteR53       "Tim Tomes(@LaNMaSter53)"
   [2]: https://bitbucket.org/LaNMaSteR53/peepingtom "here" 
+  [3]: http://phantomjs.org/ "PhantomJS"
 
 How you use it
 --------------
