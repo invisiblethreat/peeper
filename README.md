@@ -7,8 +7,8 @@ and take screen shots of the parsed report.
 What you need
 -------------
 
-* PhantomJS
-* X11 Fonts to render text with PhantomJS
+* [PhantomJS 1.9+][3]
+* Fonts to render text with PhantomJS (an issue for servers/headless systems, not usually installed)
 * Python
 
 BIG FAT WARNING
@@ -25,6 +25,7 @@ code, check it out [here][2].
 
   [1]: https://twitter.com/LaNMaSteR53       "Tim Tomes(@LaNMaSter53)"
   [2]: https://bitbucket.org/LaNMaSteR53/peepingtom "here" 
+  [3]: http://phantomjs.org/ "PhantomJS"
 
 How you use it
 --------------
@@ -35,8 +36,14 @@ need to edit the subprocess command if you use the latter option.)
 * Visit the resulting directory 'testing_report', and look at the 
 index.html for thumbnails, and click for full size images
 
+<<<<<<< HEAD
+Change Log
+----------
+*2013-04-03 Merged in changes that will allow for a graceful failure on a 401 
+=======
 BIG FAT WARNING
 ---------------
 Yeah, in its current form, it does terrible DOSing when it encounters a
 WWW-Authenticate... You have been warned. (Planning fixes, check "issues")
 2013-03-27
+>>>>>>> origin/master
