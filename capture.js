@@ -15,7 +15,7 @@ page.open(url, function (status) {
   window.setTimeout(function ()
   {
     page.render(filename);
-    console.log('Rendered ' + filename ' from ' + url );
+//    console.log('Rendered ' + filename ' from ' + url );
     phantom.exit();
   }, 2000);
 });
