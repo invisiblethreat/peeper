@@ -11,11 +11,6 @@ What you need
 * Fonts to render text with PhantomJS (an issue for servers/headless systems, not usually installed)
 * Python
 
-BIG FAT WARNING
----------------
-Yeah, in its current form, it does terrible DOSing when it encounters a
-WWW-Authenticate... You have been warned. (Planning fixes, check "issues")
-2013-03-27
 
 Who thought of this first?
 --------------------------
@@ -39,11 +34,4 @@ index.html for thumbnails, and click for full size images
 <<<<<<< HEAD
 Change Log
 ----------
-*2013-04-03 Merged in changes that will allow for a graceful failure on a 401 
-=======
-BIG FAT WARNING
----------------
-Yeah, in its current form, it does terrible DOSing when it encounters a
-WWW-Authenticate... You have been warned. (Planning fixes, check "issues")
-2013-03-27
->>>>>>> origin/master
+* 2013-04-03 Merged in changes that will allow for a graceful failure on a 401 
