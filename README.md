@@ -31,7 +31,7 @@ need to edit the subprocess command if you use the latter option.)
 * Visit the resulting directory 'testing_report', and look at the 
 index.html for thumbnails, and click for full size images
 
-<<<<<<< HEAD
+
 Change Log
 ----------
 * 2013-04-03 Merged in changes that will allow for a graceful failure on a 401 
